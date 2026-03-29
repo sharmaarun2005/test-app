@@ -1,0 +1,121 @@
+body {
+    font-family: 'Nexa Book', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Bold.woff2') format('woff2'),
+        url('../fonts/Nexa-Bold.woff') format('woff'),
+        url('../fonts/Nexa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Book';
+    src: url('../fonts/Nexa-Book.woff2') format('woff2'),
+        url('../fonts/Nexa-Book.woff') format('woff'),
+        url('../fonts/Nexa-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Black.woff2') format('woff2'),
+        url('../fonts/Nexa-Black.woff') format('woff'),
+        url('../fonts/Nexa-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Heavy.woff2') format('woff2'),
+        url('../fonts/Nexa-Heavy.woff') format('woff'),
+        url('../fonts/Nexa-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Light.woff2') format('woff2'),
+        url('../fonts/Nexa-Light.woff') format('woff'),
+        url('../fonts/Nexa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Regular.woff2') format('woff2'),
+        url('../fonts/Nexa-Regular.woff') format('woff'),
+        url('../fonts/Nexa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa XBold';
+    src: url('../fonts/Nexa-XBold.woff2') format('woff2'),
+        url('../fonts/Nexa-XBold.woff') format('woff'),
+        url('../fonts/Nexa-XBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+.nexa-book {
+    font-family: 'Nexa Book', sans-serif;
+}
+
+.nexa-bold {
+    font-family: 'Nexa Bold', sans-serif;
+}
+.nexa-regular {
+    font-family: 'Nexa Regular', sans-serif;
+}
+.nexa-black {
+    font-family: 'Nexa Black', sans-serif;
+}
+.nexa-light {
+    font-family: 'Nexa Light', sans-serif;
+}
+.nexa-xbold {
+    font-family: 'Nexa XBold', sans-serif;
+}
+.nexa-heavy {
+    font-family: 'Nexa Heavy', sans-serif;
+}
+
+
+
+.next_prev_btn::after {
+    font-size: 20px !important;
+    background: #fff;
+    color: #000;
+    min-width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 0 0 10px #00000047;
+}
